@@ -6,7 +6,7 @@
     <v-main>
       <div class="img">
         <v-img
-      src="../assets/Background/texto_inicio.png"
+      src="../assets/Background/001.png"
       max-width="1000"
  
     >
@@ -14,22 +14,19 @@
       </div>
 <div class="icon">
       <router-link to="/entrada">
-      <v-btn
-           class="mx-2"
-  color="accent"
-  depressed
-  elevation="44"
-  outlined
-  plain
-  raised
-  rounded
-  text
-  tile
-  x-large
-  position: bottom
-            >
-              <v-icon color="white">mdi-arrow-up-circle-outline</v-icon>
-            </v-btn>
+     <v-btn
+        class="ma-0"
+        color="red"
+        dark
+      >
+          LETS GO
+        <v-icon
+          dark
+          right
+        >
+        mdi-arrow-up-bold-box-outline
+        </v-icon>
+      </v-btn>
             </router-link>
             </div>
          
@@ -57,7 +54,7 @@ export default {
 
 <style>
 #app {
-  background: url('../assets/Background/4.jpg') no-repeat center center fixed !important;
+  background: url('../assets/Background/01.gif') no-repeat center center fixed !important;
   background-size: cover;
   position: relative;
   overflow-x:hidden; 
@@ -88,7 +85,8 @@ body{
 }
 
 .icon {
-     padding-top: 340px;
+     padding-top: 540px;
+     left:-50px
 }
 .img{
   text-align: right;

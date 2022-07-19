@@ -113,7 +113,7 @@ export default {
 
 <style>
 #principal {
- background: url('../assets/Background/2.jpg') no-repeat center center fixed !important;
+ background: url('../assets/Background/1.webp') no-repeat center center fixed !important;
   
 }
 .title {
